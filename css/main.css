@@ -1,0 +1,490 @@
+.extra {
+  width: 1300px;
+  height: 40px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  background: #f3f2f2;
+  gap: 200px;
+}
+.extra .extra__loc {
+  display: flex;
+  align-items: center;
+}
+.extra .extra__loc .extra__loc-place {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+.extra .extra__loc .extra__loc-choose {
+  color: rgb(85, 85, 85);
+  margin-left: 30px;
+}
+.extra .extra__tools {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.extra .extra__tools .extra__tools-moiZakazy {
+  display: flex;
+}
+
+.header {
+  width: 1300px;
+  height: 600px;
+  margin: 0 auto;
+}
+.header .nav__top {
+  width: 100%;
+  height: 15%;
+  margin-top: 10px;
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+.header .nav__top .nav__top-search {
+  display: flex;
+  align-items: center;
+}
+.header .nav__top .nav__top-search .catalog {
+  width: 100px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+  background-color: #d8cff8;
+}
+.header .nav__top .nav__top-search .search {
+  display: flex;
+  align-items: center;
+}
+.header .nav__top .nav__top-search .search input {
+  width: 400px;
+  height: 35px;
+  padding-left: 50px;
+  margin-right: 0;
+  margin-left: 20px;
+  border: 0.2px solid;
+  border-top-left-radius: 7px;
+  border-bottom-left-radius: 7px;
+  border-right: none;
+}
+.header .nav__top .nav__top-search .searchButton {
+  width: 80px;
+  height: 38px;
+  border: 0.5px solid;
+  border-left: none;
+  border-top-right-radius: 7px;
+  border-bottom-right-radius: 7px;
+}
+.header .nav__top .nav__top-right {
+  display: flex;
+  gap: 30px;
+}
+.header .nav__bottom {
+  width: 1300px;
+  height: 15%;
+  margin-top: 10px;
+  display: flex;
+  align-items: center;
+  gap: 25px;
+}
+.header .nav__bottom #else {
+  border: none;
+  background-color: #fafafa;
+}
+.header .header__hero {
+  width: 1300px;
+  height: 70%;
+  position: relative;
+}
+.header .header__hero .hero-back {
+  width: 1300px;
+  height: 410px;
+  margin-top: 20px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+
+.vygodno {
+  width: 1300px;
+  height: 2300px;
+  margin: 0 auto;
+}
+.vygodno .vygodno__top a {
+  display: flex;
+  align-items: center;
+}
+.vygodno .products {
+  display: grid;
+  grid-template-columns: auto auto auto auto auto;
+  grid-template-rows: 450px 450px 450px 450px;
+  gap: 20px;
+}
+.vygodno .products .product p {
+  margin: 0;
+}
+.vygodno .products .product {
+  background: url(/images/cj544rt40v9pplt767jg.jpg) no-repeat;
+  background-size: contain;
+  padding-top: 275px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+.vygodno .products .product .otsenka {
+  display: flex;
+}
+.vygodno .products .product .product-btm {
+  margin-top: 15px;
+  display: flex;
+  align-items: center;
+  gap: 130px;
+}
+.vygodno .products .product .price {
+  margin: 10px 0 0 0;
+}
+.vygodno .products .product .old-price {
+  text-decoration: line-through;
+  margin: 0;
+}
+.vygodno .products .product .price h4 {
+  margin: 0;
+}
+.vygodno .products .product h4 {
+  margin-bottom: 0;
+}
+.vygodno .showMore {
+  width: 700px;
+  margin-left: 350px;
+  margin-top: 100px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+  border: none;
+}
+
+.vshkolu {
+  width: 1300px;
+  height: 2300px;
+  margin: 0 auto;
+}
+.vshkolu .vshkolu__top a {
+  display: flex;
+  align-items: center;
+}
+.vshkolu .products {
+  display: grid;
+  grid-template-columns: auto auto auto auto auto;
+  grid-template-rows: 450px 450px 450px 450px;
+  gap: 20px;
+}
+.vshkolu .products .product p {
+  margin: 0;
+}
+.vshkolu .products .product {
+  background: url(/images/cj544rt40v9pplt767jg.jpg) no-repeat;
+  background-size: contain;
+  padding-top: 275px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+.vshkolu .products .product .otsenka {
+  display: flex;
+}
+.vshkolu .products .product .product-btm {
+  margin-top: 15px;
+  display: flex;
+  align-items: center;
+  gap: 130px;
+}
+.vshkolu .products .product .price {
+  margin: 10px 0 0 0;
+}
+.vshkolu .products .product .old-price {
+  text-decoration: line-through;
+  margin: 0;
+}
+.vshkolu .products .product .price h4 {
+  margin: 0;
+}
+.vshkolu .products .product h4 {
+  margin-bottom: 0;
+}
+.vshkolu .showMore {
+  width: 700px;
+  margin-left: 350px;
+  margin-top: 100px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+  border: none;
+}
+
+.nizkiyeSeny {
+  width: 1300px;
+  height: 2300px;
+  margin: 0 auto;
+}
+.nizkiyeSeny .nizkiyeSeny__top a {
+  display: flex;
+  align-items: center;
+}
+.nizkiyeSeny .products {
+  display: grid;
+  grid-template-columns: auto auto auto auto auto;
+  grid-template-rows: 450px 450px 450px 450px;
+  gap: 20px;
+}
+.nizkiyeSeny .products .product p {
+  margin: 0;
+}
+.nizkiyeSeny .products .product {
+  background: url(/images/cj544rt40v9pplt767jg.jpg) no-repeat;
+  background-size: contain;
+  padding-top: 275px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+.nizkiyeSeny .products .product .otsenka {
+  display: flex;
+}
+.nizkiyeSeny .products .product .product-btm {
+  margin-top: 15px;
+  display: flex;
+  align-items: center;
+  gap: 130px;
+}
+.nizkiyeSeny .products .product .price {
+  margin: 10px 0 0 0;
+}
+.nizkiyeSeny .products .product .old-price {
+  text-decoration: line-through;
+  margin: 0;
+}
+.nizkiyeSeny .products .product .price h4 {
+  margin: 0;
+}
+.nizkiyeSeny .products .product h4 {
+  margin-bottom: 0;
+}
+.nizkiyeSeny .showMore {
+  width: 700px;
+  margin-left: 350px;
+  margin-top: 100px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+  border: none;
+}
+
+.xalalnayaRassrochka {
+  width: 1300px;
+  height: 2300px;
+  margin: 0 auto;
+}
+.xalalnayaRassrochka .xalalnayaRassrochka__top a {
+  display: flex;
+  align-items: center;
+}
+.xalalnayaRassrochka .products {
+  display: grid;
+  grid-template-columns: auto auto auto auto auto;
+  grid-template-rows: 450px 450px 450px 450px;
+  gap: 20px;
+}
+.xalalnayaRassrochka .products .product p {
+  margin: 0;
+}
+.xalalnayaRassrochka .products .product {
+  background: url(/images/cj544rt40v9pplt767jg.jpg) no-repeat;
+  background-size: contain;
+  padding-top: 275px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+.xalalnayaRassrochka .products .product .otsenka {
+  display: flex;
+}
+.xalalnayaRassrochka .products .product .product-btm {
+  margin-top: 15px;
+  display: flex;
+  align-items: center;
+  gap: 130px;
+}
+.xalalnayaRassrochka .products .product .price {
+  margin: 10px 0 0 0;
+}
+.xalalnayaRassrochka .products .product .old-price {
+  text-decoration: line-through;
+  margin: 0;
+}
+.xalalnayaRassrochka .products .product .price h4 {
+  margin: 0;
+}
+.xalalnayaRassrochka .products .product h4 {
+  margin-bottom: 0;
+}
+.xalalnayaRassrochka .showMore {
+  width: 700px;
+  margin-left: 350px;
+  margin-top: 100px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+  border: none;
+}
+
+.skidka {
+  width: 1300px;
+  height: 2300px;
+  margin: 0 auto;
+}
+.skidka .skidka__top a {
+  display: flex;
+  align-items: center;
+}
+.skidka .products {
+  display: grid;
+  grid-template-columns: auto auto auto auto auto;
+  grid-template-rows: 450px 450px 450px 450px;
+  gap: 20px;
+}
+.skidka .products .product p {
+  margin: 0;
+}
+.skidka .products .product {
+  background: url(/images/cj544rt40v9pplt767jg.jpg) no-repeat;
+  background-size: contain;
+  padding-top: 275px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+.skidka .products .product .otsenka {
+  display: flex;
+}
+.skidka .products .product .product-btm {
+  margin-top: 15px;
+  display: flex;
+  align-items: center;
+  gap: 130px;
+}
+.skidka .products .product .price {
+  margin: 10px 0 0 0;
+}
+.skidka .products .product .old-price {
+  text-decoration: line-through;
+  margin: 0;
+}
+.skidka .products .product .price h4 {
+  margin: 0;
+}
+.skidka .products .product h4 {
+  margin-bottom: 0;
+}
+.skidka .showMore {
+  width: 700px;
+  margin-left: 350px;
+  margin-top: 100px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+  border: none;
+}
+
+.footer {
+  width: 1300px;
+  height: 400px;
+  margin: 0 auto;
+}
+.footer .footer__top {
+  width: 100%;
+  height: 40%;
+  display: flex;
+  gap: 100px;
+}
+.footer .footer__top .aboutUs {
+  width: 150px;
+}
+.footer .footer__top .forUsers {
+  width: 170px;
+}
+.footer .footer__top .forSellers {
+  width: 180px;
+}
+.footer .footer__top .forSellers a {
+  margin-right: 30px;
+}
+.footer .footer__top .stores {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.footer .footer__top .stores .bigger {
+  font-size: large;
+}
+.footer .footer__top .stores img {
+  height: 30px;
+}
+.footer .footer__social {
+  width: 1300px;
+  height: 20%;
+}
+.footer .footer__social .social-links {
+  margin-left: 1000px;
+  display: flex;
+  gap: 10px;
+}
+.footer .footer__social .social-links a img {
+  width: 50px;
+}
+.footer .footer__social .social-text h4 {
+  margin: 0 0 10px 1000px;
+}
+.footer .footer__bottom {
+  margin-top: 150px;
+  display: flex;
+  gap: 20px;
+}
+.footer .big {
+  margin-left: 350px;
+  font-size: small;
+}
+
+a {
+  text-decoration: none;
+}
+
+.blend {
+  color: rgb(85, 85, 85);
+}
+
+body {
+  background: #FAFAFA;
+}
+
+.product:hover {
+  box-shadow: 0px 0.1px 3px 0.1px #000000;
+}
+
+/*# sourceMappingURL=main.css.map */

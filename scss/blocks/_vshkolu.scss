@@ -1,0 +1,65 @@
+.vshkolu{
+    width: 1300px;
+    height: 2300px;
+    // border: 1px solid;
+    margin: 0 auto;
+    .vshkolu__top a{
+        display: flex;
+        align-items: center;
+    }
+    .products{
+        display: grid;
+        grid-template-columns: auto auto auto auto auto;
+        grid-template-rows: 450px 450px 450px 450px;
+        gap: 20px;
+        .product p{
+            margin: 0;
+        }
+        .product{
+            background: url(/images/cj544rt40v9pplt767jg.jpg) no-repeat;
+            background-size: contain;
+            padding-top: 275px;
+            // border: 1px solid;
+            border-top-left-radius: 10px;
+            border-top-right-radius: 10px;
+            border-bottom-right-radius: 10px;
+            border-bottom-left-radius: 10px;
+            
+            .otsenka{
+                display: flex;
+            }
+            .product-btm{
+                margin-top: 15px;
+                display: flex;
+                align-items: center;
+                gap: 130px;
+            }
+            .price{
+                margin: 10px 0 0 0;
+            }
+            .old-price{
+                text-decoration: line-through;
+                margin: 0;
+            }
+            .price h4{
+                margin: 0;
+            }
+
+        }
+        .product h4{
+                margin-bottom: 0;
+        }
+        
+
+    }
+    .showMore{
+        width: 700px;
+        margin-left: 350px;
+        margin-top: 100px;
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+        border-bottom-right-radius: 10px;
+        border-bottom-left-radius: 10px;
+        border: none;
+    }
+}
